@@ -3,7 +3,8 @@
 Bank Customer Churn Analysis using Power BI | Identifying key factors that lead customers to leave the bank | Interactive dashboard with insights on credit score, age, balance, geography & activity status
 
 
- Project Overview
+📌 Project Overview
+ 
 Customer retention is one of the most critical priorities for banks. When a customer stops doing business with a bank and moves to a competitor, it is referred to as "Customer Churn". Acquiring a new customer costs significantly more than retaining an existing one, making churn analysis essential for sustainable business growth.
 
 In this project:
@@ -87,6 +88,7 @@ Range             Category
 
 
 📊 Key Insights
+
 
 💰 High Balance Customers — Customers with higher account balances are less likely to churn
 
