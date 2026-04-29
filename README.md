@@ -1,46 +1,81 @@
 # Bank_Customer_Churn_Analysis
-🏦 Bank Customer Churn Analysis | Power BI Dashboard | Data-driven insights to improve customer retention
-📌 Project Overview
-Banks కి customer retention చాలా important. ఒక customer bank వదిలి వెళ్ళిపోవడాన్ని "Churn" అంటారు. ఈ project లో:
+ Project Overview
+Customer retention is one of the most critical priorities for banks. When a customer stops doing business with a bank and moves to a competitor, it is referred to as "Customer Churn". Acquiring a new customer costs significantly more than retaining an existing one, making churn analysis essential for sustainable business growth.
+In this project:
 
-Customer churn కి కారణమయ్యే factors ని identify చేశాం
-Power BI తో interactive dashboard తయారు చేశాం
-Loyalty programs & retention campaigns కి useful insights తీశాం
+Identified the key factors that contribute to customer churn
+Built an interactive Power BI dashboard to visualize churn patterns
+Derived actionable insights to support loyalty programs and retention campaigns
 
 
 📂 Dataset Description
-FileDescriptionBank_Churn.xlsxMain dataset — 10,000 customers info with churn statusCustomerInfo.xlsxCustomer ID & Surname detailsActiveCustomer.xlsxActive/Inactive member lookupExitCustomer.xlsxExit/Retain status lookupGender.xlsxGender category lookupCreditCard.xlsxCredit card holder status lookupBank_Churn_Analysis.pbixPower BI Dashboard fileBusinessRequirementDocument.docxProject requirements & data dictionary
+FileDescriptionBank_Churn.xlsxMain dataset containing 10,000 customer records with churn statusCustomerInfo.xlsxCustomer ID and Surname detailsActiveCustomer.xlsxLookup table for Active / Inactive member classificationExitCustomer.xlsxLookup table for Exit / Retain statusGender.xlsxLookup table for Gender categoriesCreditCard.xlsxLookup table for Credit Card holder statusBank_Churn_Analysis.pbixPower BI interactive dashboard fileBusinessRequirementDocument.docxProject requirements and full data dictionary
 
 🔑 Data Dictionary
-ColumnDescriptionRowNumberRecord number (no effect on output)CustomerIdUnique customer identifierSurnameCustomer surnameCreditScoreCustomer credit score (300–850)GeographyCustomer's country/locationGenderMale / FemaleAgeCustomer's ageTenureYears with the bankBalanceAccount balanceNumOfProductsNumber of bank products purchasedHasCrCard1 = Credit card holder, 0 = NotIsActiveMember1 = Active, 0 = InactiveEstimatedSalaryCustomer's estimated salaryExited1 = Churned (Exit), 0 = RetainedBank DOJDate customer joined the bank
+ColumnDescriptionRowNumberRecord number — has no effect on the outputCustomerIdUnique identifier for each customerSurnameCustomer's surnameCreditScoreCustomer's credit score (range: 300–850)GeographyCountry or location of the customerGenderMale / FemaleAgeAge of the customerTenureNumber of years the customer has been with the bankBalanceCurrent account balanceNumOfProductsNumber of bank products purchased by the customerHasCrCard1 = Credit card holder, 0 = Not a credit card holderIsActiveMember1 = Active Member, 0 = Inactive MemberEstimatedSalaryCustomer's estimated annual salaryExited1 = Churned (Exit), 0 = RetainedBank DOJDate the customer joined the bank
 💳 Credit Score Categories
 RangeCategory800 – 850Excellent740 – 799Very Good670 – 739Good580 – 669Fair300 – 579Poor
 
 📊 Key Insights
 
-💰 High Balance customers are less likely to churn
-👴 Older customers tend to be more loyal
-🏦 Inactive members have significantly higher churn rate
-📍 Geography plays a role in churn decisions
-💳 Credit card holders are less likely to leave
-💵 Lower salary customers are more prone to churn
+💰 High Balance Customers — Customers with higher account balances are less likely to churn
+👴 Age Factor — Older customers tend to be more loyal and have lower churn rates
+🏦 Inactive Members — Inactive members show a significantly higher churn rate compared to active members
+📍 Geography Impact — A customer's location plays a notable role in their decision to leave the bank
+💳 Credit Card Holders — Customers with a credit card are less likely to exit
+💵 Lower Salary Customers — Customers with lower estimated salaries are more prone to churning
 
 
 🛠️ Tools Used
-Microsoft Excel — Data storage & lookup tables
-Power BI Desktop — Dashboard & visualization
-DAX — Calculated measures in Power BI
+ToolPurposeMicrosoft ExcelData storage and lookup tablesPower BI DesktopInteractive dashboard and data visualizationDAX (Data Analysis Expressions)Calculated measures and KPIs in Power BI
+
+🚀 How to Use
+
+Clone the repository
+
+bash   git clone https://github.com/janakiram-tirumadi/bank-churn-analysis.git
+   cd bank-churn-analysis
+
+Open the Power BI Dashboard
+
+Open Power BI Desktop
+Load the Bank_Churn_Analysis.pbix file
+Update data source paths if prompted
+
+
+Explore the Data
+
+Raw data is available in the Excel files
+Refer to BusinessRequirementDocument.docx for full project context
+
+
+
+
+📁 Project Structure
+bank-churn-analysis/
+│
+├── 📊 Bank_Churn.xlsx                    # Main dataset
+├── 👤 CustomerInfo.xlsx                  # Customer details
+├── ✅ ActiveCustomer.xlsx                # Active/Inactive lookup
+├── 🚪 ExitCustomer.xlsx                  # Exit/Retain lookup
+├── 🚻 Gender.xlsx                        # Gender lookup
+├── 💳 CreditCard.xlsx                    # Credit card lookup
+├── 📈 Bank_Churn_Analysis.pbix           # Power BI Dashboard
+├── 📄 BusinessRequirementDocument.docx   # Business Requirement Document
+└── 📝 README.md
 
 🎯 Business Goal
+
 "Churn prevention allows companies to develop loyalty programs and retention campaigns to keep as many customers as possible."
 
-ఈ analysis వల్ల banks:
-At-risk customers ని early గా identify చేయగలరు
-Targeted retention campaigns run చేయగలరు
-Customer lifetime value improve చేయగలరు
+This analysis helps banks to:
+
+Identify at-risk customers early before they leave
+Run targeted retention campaigns for high-risk segments
+Improve overall customer lifetime value and profitability
 
 
 👨‍💻 Author
-Your Name
-📧 janakiramtirumadi5gmail.com
-🔗 www.linkedin.com/in/janakiram-tirumadi
+Janakiram Tirumadi
+📧 janakiramtirumadi5@gmail.com
+🔗 LinkedIn — linkedin.com/in/janakiram-tirumadi
