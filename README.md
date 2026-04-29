@@ -1,20 +1,90 @@
 # Bank_Customer_Churn_Analysis
+
+Bank Customer Churn Analysis using Power BI | Identifying key factors that lead customers to leave the bank | Interactive dashboard with insights on credit score, age, balance, geography & activity status
+
+
  Project Overview
 Customer retention is one of the most critical priorities for banks. When a customer stops doing business with a bank and moves to a competitor, it is referred to as "Customer Churn". Acquiring a new customer costs significantly more than retaining an existing one, making churn analysis essential for sustainable business growth.
+
 In this project:
 
 Identified the key factors that contribute to customer churn
+
 Built an interactive Power BI dashboard to visualize churn patterns
+
 Derived actionable insights to support loyalty programs and retention campaigns
 
 
 📂 Dataset Description
-FileDescriptionBank_Churn.xlsxMain dataset containing 10,000 customer records with churn statusCustomerInfo.xlsxCustomer ID and Surname detailsActiveCustomer.xlsxLookup table for Active / Inactive member classificationExitCustomer.xlsxLookup table for Exit / Retain statusGender.xlsxLookup table for Gender categoriesCreditCard.xlsxLookup table for Credit Card holder statusBank_Churn_Analysis.pbixPower BI interactive dashboard fileBusinessRequirementDocument.docxProject requirements and full data dictionary
+
+File                                     Description
+
+Bank_Churn.xlsx                      Main dataset containing 10,000 customer records with churn 
+
+statusCustomerInfo.xlsx              Customer ID and Surname detailsActive
+
+Customer.xlsx                        Lookup table for Active / Inactivememberclassification
+
+ExitCustomer.xlsx                    Lookup table for Exit / Retain
+
+statusGender.xlsx                    Lookup table for Gender categories
+
+CreditCard.xlsx                      Lookup table for Credit Card holder status
+
+Bank_Churn_Analysis.pbix             Power BI interactive dashboard file 
+
+BusinessRequirementDocument.docx     Project requirements and full data dictionary
+
 
 🔑 Data Dictionary
-ColumnDescriptionRowNumberRecord number — has no effect on the outputCustomerIdUnique identifier for each customerSurnameCustomer's surnameCreditScoreCustomer's credit score (range: 300–850)GeographyCountry or location of the customerGenderMale / FemaleAgeAge of the customerTenureNumber of years the customer has been with the bankBalanceCurrent account balanceNumOfProductsNumber of bank products purchased by the customerHasCrCard1 = Credit card holder, 0 = Not a credit card holderIsActiveMember1 = Active Member, 0 = Inactive MemberEstimatedSalaryCustomer's estimated annual salaryExited1 = Churned (Exit), 0 = RetainedBank DOJDate the customer joined the bank
+
+Column                                 Description
+
+RowNumber                          Record number — has no effect on the output
+
+CustomerId                         Unique identifier for each customer
+
+Surname                            Customer's surname
+
+CreditScore                        Customer's credit score (range: 300–850)
+
+Geography                          Country or location of the customer
+
+Gender                             Male / Female
+
+Age                                Age of the customer
+
+Tenure                             Number of years the customer has been with the bank
+
+Balance                            Current account balance
+
+NumOfProducts                      Number of bank products purchased by the customer
+
+HasCrCard                          1 = Credit card holder, 0 = Not a credit card holder
+
+IsActiveMember                     1 = Active Member, 0 = Inactive Member
+
+EstimatedSalary                    Customer's estimated annual salary
+
+Exited                             1 = Churned (Exit), 0 = Retained
+
+Bank DOJ                           Date the customer joined the bank
+
+
 💳 Credit Score Categories
-RangeCategory800 – 850Excellent740 – 799Very Good670 – 739Good580 – 669Fair300 – 579Poor
+
+Range             Category
+
+800 – 850         Excellent
+
+740 – 799         Very Good
+
+670 – 739          Good
+
+580 – 669          Fair
+
+300 – 579          Poor
+
 
 📊 Key Insights
 
@@ -32,6 +102,7 @@ RangeCategory800 – 850Excellent740 – 799Very Good670 – 739Good580 – 669F
 
 
 🛠️ Tools Used
+
 ToolPurposeMicrosoft ExcelData storage and lookup tablesPower BI DesktopInteractive dashboard and data visualizationDAX (Data Analysis Expressions)Calculated measures and KPIs in Power BI
 
 
@@ -43,12 +114,16 @@ ToolPurposeMicrosoft ExcelData storage and lookup tablesPower BI DesktopInteract
 This analysis helps banks to:
 
 Identify at-risk customers early before they leave
+
 Run targeted retention campaigns for high-risk segments
+
 Improve overall customer lifetime value and profitability
 
 
 👨‍💻 Author
 
 Janakiram Tirumadi
+
 📧 janakiramtirumadi5@gmail.com
+
 🔗 LinkedIn — https://www.linkedin.com/in/janakiram-tirumadi/
