@@ -19,50 +19,22 @@ RangeCategory800 – 850Excellent740 – 799Very Good670 – 739Good580 – 669F
 📊 Key Insights
 
 💰 High Balance Customers — Customers with higher account balances are less likely to churn
+
 👴 Age Factor — Older customers tend to be more loyal and have lower churn rates
+
 🏦 Inactive Members — Inactive members show a significantly higher churn rate compared to active members
+
 📍 Geography Impact — A customer's location plays a notable role in their decision to leave the bank
+
 💳 Credit Card Holders — Customers with a credit card are less likely to exit
+
 💵 Lower Salary Customers — Customers with lower estimated salaries are more prone to churning
 
 
 🛠️ Tools Used
 ToolPurposeMicrosoft ExcelData storage and lookup tablesPower BI DesktopInteractive dashboard and data visualizationDAX (Data Analysis Expressions)Calculated measures and KPIs in Power BI
 
-🚀 How to Use
 
-Clone the repository
-
-bash   git clone https://github.com/janakiram-tirumadi/bank-churn-analysis.git
-   cd bank-churn-analysis
-
-Open the Power BI Dashboard
-
-Open Power BI Desktop
-Load the Bank_Churn_Analysis.pbix file
-Update data source paths if prompted
-
-
-Explore the Data
-
-Raw data is available in the Excel files
-Refer to BusinessRequirementDocument.docx for full project context
-
-
-
-
-📁 Project Structure
-bank-churn-analysis/
-│
-├── 📊 Bank_Churn.xlsx                    # Main dataset
-├── 👤 CustomerInfo.xlsx                  # Customer details
-├── ✅ ActiveCustomer.xlsx                # Active/Inactive lookup
-├── 🚪 ExitCustomer.xlsx                  # Exit/Retain lookup
-├── 🚻 Gender.xlsx                        # Gender lookup
-├── 💳 CreditCard.xlsx                    # Credit card lookup
-├── 📈 Bank_Churn_Analysis.pbix           # Power BI Dashboard
-├── 📄 BusinessRequirementDocument.docx   # Business Requirement Document
-└── 📝 README.md
 
 🎯 Business Goal
 
@@ -76,6 +48,7 @@ Improve overall customer lifetime value and profitability
 
 
 👨‍💻 Author
+
 Janakiram Tirumadi
 📧 janakiramtirumadi5@gmail.com
-🔗 LinkedIn — linkedin.com/in/janakiram-tirumadi
+🔗 LinkedIn — https://www.linkedin.com/in/janakiram-tirumadi/
